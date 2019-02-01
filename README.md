@@ -59,3 +59,6 @@
 ### install 
 - yarn add -D @types/ws
 - yarn add -D @types/aws-lambda
+
+### port change
+- environment use (export PORT=whatever)
