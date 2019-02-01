@@ -1,0 +1,24 @@
+{
+  "name": "typescript-graphql-yoga",
+  "version": "1.0.0",
+  "description": "typescript graphql yoga",
+  "main": "./src/app.js",
+  "repository": "https://github.com/rsa6/typescript-graphql-yoga.git",
+  "author": "rsa6",
+  "license": "private",
+  "private": true,
+  "scripts": {
+    "build": "tsc -w",
+    "start": "nodemon ./dist/app.js"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.18",
+    "@types/ws": "^6.0.1",
+    "tslint": "^5.12.1",
+    "tslint-config-prettier": "^1.17.0",
+    "tslint-react": "^3.6.0"
+  },
+  "dependencies": {
+    "graphql-yoga": "^1.17.1"
+  }
+}
