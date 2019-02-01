@@ -62,3 +62,6 @@
 
 ### port change
 - environment use (export PORT=whatever)
+
+### tsconfig.json edit
+- // "noUnusedParameters": true,
